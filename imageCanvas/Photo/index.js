@@ -10,9 +10,12 @@ import canDownload from './canDownload.js'
 const Photo = {}
 
 createCanvas(Photo)
+
 setPreview(Photo)
 setLoad(Photo)
+
 createSelectionTool(Photo)
+
 canCrop(Photo)
 canDownload(Photo)
 

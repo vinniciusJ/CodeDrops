@@ -1,8 +1,6 @@
 import Photo from './Photo/index.js'
 
-window.addEventListener('DOMContentLoaded', () => {
-    Photo.load() 
-})
+window.addEventListener('DOMContentLoaded', () => Photo.load())
 
 // Selecionar imagem
 document.querySelector('#select-img').addEventListener('click', () => Photo.photoFile.click())
